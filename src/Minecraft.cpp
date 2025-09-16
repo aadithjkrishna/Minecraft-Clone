@@ -287,11 +287,11 @@ int main() {
 		camera.updateMatrix(45.0f, 0.1f, 1000.0f);
 		camera.Inputs(window, deltaTime);
 
-		float t = 1.0f;
+		//float t = 1.0f;
 
-		BLOCKS block_looking_at = AIR;
+		//BLOCKS block_looking_at = AIR;
 
-		bool exitLoop = false;
+		//bool exitLoop = false;
 
 		//while(t < 25.0f && !exitLoop) {
 		//	glm::vec3 Resultant = camera.Position + t * camera.Orientation;
@@ -340,13 +340,13 @@ int main() {
 		//		break;
 		//	}
 
-		//	/*if (++limitter >= fps * 2) */{
+		//	/*if (++limitter >= fps * 2) {
 		//		std::cout << "Camera Position: " << camera.Position.x << ", " << camera.Position.y << ", " << camera.Position.z << '\n';
 		//		std::cout << "Camera Orientation: " << camera.Orientation.x << ", " << camera.Orientation.y << ", " << camera.Orientation.z << '\n';
 		//		std::cout << "Resultant: " << Resultant.x << ", " << Resultant.y << ", " << Resultant.z << '\n';
 		//		std::cout << "Resultant_Floored: " << blockX << ", " << blockY << ", " << blockZ << '\n';
 		//		limitter = 0;
-		//	}
+		//	}*/
 		//}
 
 
